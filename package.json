@@ -1,0 +1,19 @@
+{
+  "name": "paintdrip",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "serve": "parcel serve",
+    "watch": "parcel watch",
+    "prebuild": "rimraf public",
+    "build": "parcel build --dist-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
